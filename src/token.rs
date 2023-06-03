@@ -1,0 +1,16 @@
+enum Token {
+    Illegal,
+    EOF,
+    Ident(String),
+    Int(isize),
+    Assign,
+    Plus,
+    Comma,
+    Semicolon,
+    Lparen,
+    Rparen,
+    Lbrace,
+    Rbrace,
+    Function,
+    Let,
+}
